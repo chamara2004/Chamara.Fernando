@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-Images/elkstak.png
+Diagram/elkstak.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -53,7 +53,8 @@ A summary of the access policies in place can be found in the table below.
 |----------------------|---------------------|--------------------|
 | Jump-Box-Provisioner | Yes                 | 60.241.281.75      |
 | Web-1                | Yes (Through LB)    | 60.241.281.75      |
-| Web-2                | yes (Through LB)   
+| Web-2                | yes (Through LB)    | 60.241.281.75      |
+| ElkServer            | Yes                 | 60.241.281.75      |
 
 ### Elk Configuration
 
